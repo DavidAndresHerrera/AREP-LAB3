@@ -1,1 +1,1 @@
-web: java $Java_OPTS -cp "target/classes" edu.escuelaing.arep.httpserver.HttpServer
+web: java $Java_OPTS -cp "target/classes" edu.escuelaing.arep.sparkWeb.DemoRuntime
