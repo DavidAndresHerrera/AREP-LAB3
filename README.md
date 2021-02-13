@@ -1,11 +1,6 @@
 ## AREP-2021 LAB-2
 
-Este proyecto cuenta de una calculadora de desviacion estandar y media usando una linkedlist
-creada por los estudiantes mediante nodos. Ademas en el proyecto se usa maven y git para el desarrollo
-de la calculadora y poder manejar de manera correcta el versionamiento de esta.
-Ademas de esto lo que se busca en este proyecto es aprender a usar heroku y a hacer el despliegue en este de manera correcta.
-
-
+Este proyecto cuenta de un servidor que se va a usar para crear un mini spark y poder entender como funciona espark, ademas se va a hacer que se puedan consultar recursos que tenga el proyecto como imagenes, un index que es un html y texto.
 
 
 ### Prerequisitos
@@ -18,7 +13,7 @@ Ademas de esto lo que se busca en este proyecto es aprender a usar heroku y a ha
 ### Instalacion
 
  Para poder instalar el programa debe clonar este repositorio en su computador, esto lo puede hacer con el sigueinte comando.
- >https://github.com/DavidAndresHerrera/AREP-LAB1.git
+ >https://github.com/DavidAndresHerrera/AREP-LAB3.git
 
  antes de clonar el proyecto en su maquina local verifique la ubicacion donde quiere dejar el proyecto.
  
@@ -29,34 +24,28 @@ Para empaquetar y ejecutar el programa usando maven ingresa el siguiente comando
 
 Cuando ya el proyecto ha compilado, puede proceder a ejecutarlo, use el siguiente comando sobre el directorio SparkWebApp
 
-> java -cp target/SparkWebApp-1.0-SNAPSHOT.jar edu.escuelaing.arep.SparkWeb
-
+> java -cp -cp "target/classes" edu.escuelaing.arep.sparkWeb.DemoRuntime
 
 
 ### Ejecucion de pruebas
 
 Despues de empaquetado el programa y saber que esta corriendo de manera correcta ingresa el sigueitne comando
-> mvn test
 
-![](img/pruebas.png)
+> mvn test
 
 ### Despliegue Heroku 
 
 En este link podra ver el despliegue de la aplicacion en heroku.
 
-> https://still-wave-10354.herokuapp.com/
+> [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://desolate-spire-29160.herokuapp.com/)
 
-Al ingresar a la pagina, la pagina principal se debe ver asi :
-
-![](img/heroku.png)
 
 ### Integracion continua
 
 En este link puede encontrar la integracion continua en CircleCi
 
-> [![](https://circleci.com/docs/assets/img/logos/logo-wordmark.svg)](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2)
+> [![CircleCI](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2.svg?style=svg)](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB3)
 
-[![CircleCI](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2.svg?style=svg)](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2)
 ### Licencia
 GNU General Public License v3.0 
 
