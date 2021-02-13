@@ -13,7 +13,7 @@ public class HttpServer {
     private int port;
 
     public HttpServer(){
-        port = 36000;
+        port = 36001;
         running = false;
     }
 
