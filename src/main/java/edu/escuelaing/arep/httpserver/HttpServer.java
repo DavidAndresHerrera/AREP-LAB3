@@ -13,7 +13,7 @@ public class HttpServer {
     private int port;
 
     public HttpServer(){
-        port = 36001;
+        port = 4500;
         running = false;
     }
 
@@ -79,7 +79,7 @@ public class HttpServer {
         if (System.getenv("PORT") != null){
             return Integer.parseInt(System.getenv("PORT"));
         }
-        return 36001;
+        return 4500;
     }
     private void createResponse(OutputStream out, String request) {
         PrintWriter printWriter = new PrintWriter(out);
